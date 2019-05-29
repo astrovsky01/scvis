@@ -26,5 +26,3 @@ def plot_trace(x, y, y_label=None, x_label="Iteration"):
     ax[-1].xaxis.set_major_locator(MaxNLocator(integer=True))
 
     ax[-1].set_xlabel("{}".format(x_label))
-
-    plt.show()
